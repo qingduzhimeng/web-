@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wunu68');
+  src:  url('fonts/icomoon.eot?wunu68#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wunu68') format('truetype'),
+    url('fonts/icomoon.woff?wunu68') format('woff'),
+    url('fonts/icomoon.svg?wunu68#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-apache:before {
+  content: "\e900";
+  color: #d22128;
+}
+.icon-apple:before {
+  content: "\e901";
+  color: #999;
+}
+.icon-atom:before {
+  content: "\e902";
+  color: #66595c;
+}
+.icon-baidu:before {
+  content: "\e903";
+  color: #2319dc;
+}
+.icon-github1:before {
+  content: "\e904";
+}
+.icon-mongodb:before {
+  content: "\e905";
+  color: #47a248;
+}
+.icon-react:before {
+  content: "\e906";
+  color: #61dafb;
+}
+.icon-tencentqq:before {
+  content: "\e907";
+  color: #eb1923;
+}
+.icon-wechat:before {
+  content: "\e908";
+  color: #7bb32e;
+}
+.icon-apacheairflow:before {
+  content: "\e90d";
+  color: #007a88;
+}
+.icon-googleplay:before {
+  content: "\e90e";
+  color: #607d8b;
+}
+.icon-latex:before {
+  content: "\e90f";
+  color: #008080;
+}
+.icon-smugmug:before {
+  content: "\e910";
+  color: #6db944;
+}
+.icon-steinberg:before {
+  content: "\e911";
+  color: #c90827;
+}
+.icon-home:before {
+  content: "\e909";
+}
+.icon-home3:before {
+  content: "\e90a";
+}
+.icon-quill:before {
+  content: "\e90b";
+}
+.icon-pen:before {
+  content: "\e90c";
+}
+.icon-pacman:before {
+  content: "\e916";
+}
+.icon-connection:before {
+  content: "\e91b";
+}
+.icon-bubbles:before {
+  content: "\e96c";
+}
+.icon-bubbles3:before {
+  content: "\e96f";
+}
+.icon-play3:before {
+  content: "\ea1c";
+}
+.icon-backward2:before {
+  content: "\ea1f";
+}
+.icon-forward3:before {
+  content: "\ea20";
+}
+.icon-previous2:before {
+  content: "\ea23";
+}
+.icon-next2:before {
+  content: "\ea24";
+}
+.icon-volume-high:before {
+  content: "\ea26";
+}
+.icon-github:before {
+  content: "\eab0";
+}

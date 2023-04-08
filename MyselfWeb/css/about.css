@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100vw;
+    height: 100vh;
+}
+.nav-qingdu{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 220px;
+    border: solid 10px rgba(255, 255, 255, 0.199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nav-qingdu h2{
+    font-size: 40px;
+    font-weight: 750;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.return{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.return a{
+    color: black;
+    text-decoration: none;
+}

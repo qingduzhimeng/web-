@@ -1,0 +1,322 @@
+.bg{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.bg img{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.nav-qingdu{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 220px;
+  border: solid 10px rgba(255, 255, 255, 0.199);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+.nav-qingdu h2{
+  font-size: 40px;
+  font-weight: 750;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.introduce{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.character{
+    position: absolute;
+    top: 15px;
+    left:265px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+.character img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.character:hover{
+    rotate: -360deg;
+    transition: all 0.3s;
+}
+.login{
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.introduce input{
+    width: 400px;
+    height: 40px;
+    margin: 12px 120px;
+    outline: none;
+    border: 0;
+    font: 700 18px;
+    border-bottom: 5px solid rgba(9, 137, 184, 0.6);
+    background-color: transparent;
+}
+.introduce input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 800;
+    font-size: 21px;
+}
+.introduce .go{
+    position: absolute;
+    bottom: 60px;
+    left: 250px;
+    width: 100px;
+    height: 40px;
+    font: 900 40px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);    
+}
+.introduce .go a{
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+}
+.platform{
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+    padding: 20px;
+}
+.platform span{
+    font-family: 'icomoon';
+    margin: 0 10px;
+}
+.platform span a{
+    color: rgba(0, 0, 0, 0.6);
+}
+/* 字体图标声明 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/fonts/icomoon.eot?4rjulb');
+    src:  url('fonts/fonts/icomoon.eot?4rjulb#iefix') format('embedded-opentype'),
+      url('fonts/fonts/icomoon.ttf?4rjulb') format('truetype'),
+      url('fonts/fonts/icomoon.woff?4rjulb') format('woff'),
+      url('fonts/fonts/icomoon.svg?4rjulb#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.qingdu-bg{
+  width: 100vw;
+  height:943px;
+  overflow: hidden;
+  position: relative;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+.night{
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    justify-content: center;
+    transform: rotateZ(45deg);
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+.qingdu{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    position: relative;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 910px;
+    transform: rotateZ(-45deg);
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.6);
+    opacity: 0.4;
+    margin-top: 10px;
+}
+.shooting-star {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    height: 2px;
+    background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
+    filter: drop-shadow(0 0 6px #699bff);
+    border-radius: 1000px;
+    animation: tail 3000ms ease-in-out infinite, shooting 3000ms ease-in-out infinite;
+  }
+  .shooting-star::before {
+    content: '';
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 0;
+    height: 2px;
+    background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #5f91ff, rgba(0, 0, 255, 0));
+    transform: translateX(50%) rotateZ(45deg);
+    animation: shining 3000ms ease-in-out infinite;
+  }
+  .shooting-star::after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 0;
+    height: 2px;
+    background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #5f91ff, rgba(0, 0, 255, 0));
+    transform: translateX(50%) rotateZ(-45deg);
+    animation: shining 3000ms ease-in-out infinite;
+  }
+  
+  @keyframes shooting {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(300px);
+    }
+  }
+  @keyframes tail {
+    0% {
+      width: 0;
+    }
+    30% {
+      width: 100px;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  
+  @keyframes shining {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 30px;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  
+  .shooting-star:nth-child(1) {
+    top: calc(50% - 10px);
+    left: calc(50% - 230px);
+    animation-delay: 4321ms;
+  }
+  .shooting-star:nth-child(1)::before,
+  .shooting-star:nth-child(1)::after {
+    animation-delay: 4321ms;
+  }
+  
+  .shooting-star:nth-child(2) {
+    top: calc(50% - 60px);
+    left: calc(50% - 170px);
+    animation-delay: 700ms;
+  }
+  .shooting-star:nth-child(2)::before,
+  .shooting-star:nth-child(2)::after {
+    animation-delay: 700ms;
+  }
+  
+  .shooting-star:nth-child(3) {
+    top: calc(50% + 60px);
+    left: calc(50% + 170px);
+    animation-delay: 100ms;
+  }
+  .shooting-star:nth-child(3)::before,
+  .shooting-star:nth-child(3)::after {
+    animation-delay: 100ms;
+  }
+  .shooting-star:nth-child(4) {
+    top: calc(50% + 160px);
+    left: calc(50% + 370px);
+    animation-delay: 6000ms;
+  }
+  .shooting-star:nth-child(4)::before,
+  .shooting-star:nth-child(4)::after {
+    animation-delay: 6000ms;
+  }
+  .shooting-star:nth-child(5) {
+    top: calc(50% + 550px);
+    left: calc(50% + 130px);
+    animation-delay: 1356ms;
+  }
+  .shooting-star:nth-child(5)::before,
+  .shooting-star:nth-child(5)::after {
+    animation-delay: 1356ms;
+  }
+  .shooting-star:nth-child(6) {
+    top: calc(50% - 220px);
+    left: calc(50% - 70px);
+    animation-delay: 2340ms;
+  }
+  .shooting-star:nth-child(6)::before,
+  .shooting-star:nth-child(6)::after {
+    animation-delay: 2340ms;
+  }
+.qingdu div{
+    position: relative;
+    margin:25px;
+    width: 700px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    background-color: white;
+}
+.qingdu div a{
+    color: black;
+}
+.qingdu div img{
+    width: 50%;
+    height: 100%;
+}
+.qingdu div .p1 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 23px;
+    top: 4px;
+    right:20px;
+    display: inline-block;
+}
+.qingdu div .p2 {
+    position: absolute;
+    font-size: 13px;
+    right: 23px;
+    top: 47px;
+    color: black;
+}
+.qingdu div .p3{
+  font-family: 'icomoon';
+  font-size: 13px;
+  position: absolute;
+  right: 17px;
+  top: 77px;
+  color: black;
+}
+.qingdu div .p4{
+  font-size: 10px;
+  position: absolute;
+  right: 23px;
+  top: 107px;
+  color: black;
+}
+.qingdu div .p5{
+  font-size: 25px;
+  position: absolute;
+  right: 23px;
+  top: 120px;
+  color: black;
+}

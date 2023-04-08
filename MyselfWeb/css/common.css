@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* 字体图标声明 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/fonts/icomoon.eot?4rjulb');
+    src:  url('fonts/fonts/icomoon.eot?4rjulb#iefix') format('embedded-opentype'),
+      url('fonts/fonts/icomoon.ttf?4rjulb') format('truetype'),
+      url('fonts/fonts/icomoon.woff?4rjulb') format('woff'),
+      url('fonts/fonts/icomoon.svg?4rjulb#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.header{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    height: 40px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.header i{
+    width: 16.666%;
+    margin: 22px;
+    line-height: 40px;
+}
+.header i a{
+    text-decoration: none;
+    color: rgb(255, 250, 230);
+  }
+.word{
+    float: left;
+    width:180px;
+    margin-left: 10px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.7)
+}
+.word:hover{
+    color:rgb(235, 197, 135);
+}
+.header i:nth-child(1):hover{
+    border-bottom: skyblue 3px solid;
+}
+.header i:nth-child(2):hover{
+    border-bottom: rgb(16, 215, 230) 3px solid;
+}
+.header i:nth-child(3):hover{
+    border-bottom: rgb(33, 229, 177) 3px solid;
+}
+.header i:nth-child(4):hover{
+    border-bottom: rgb(12, 220, 36) 3px solid;
+}
+.header i:nth-child(5):hover{
+    border-bottom: rgb(226, 239, 76) 3px solid;
+}
+.header i:nth-child(6):hover{
+    border-bottom: rgb(239, 148, 69) 3px solid;
+}
+.header #a1:hover{
+    color: skyblue;
+}
+.header #a2:hover{
+    color: rgb(16, 215, 230);
+}
+.header #a3:hover{
+    color: rgb(33, 229, 177);
+}
+.header #a4:hover{
+    color: rgb(12, 220, 36);
+}
+.header #a5:hover{
+    color: rgb(226, 239, 76);
+}
+.header #a6:hover{
+    color: rgb(239, 148, 69);
+}
+.w{
+    position: fixed;
+    width: 100vw;
+}
+.j{
+    display: inline-block;
+    justify-content: center;
+    width: 70%;
+    line-height: 40px;
+    margin: 0 auto;
+}
+.nav-login{
+    margin-right: 70px;
+    line-height: 40px;
+}
+.nav-login a{
+    font-size: 14px;
+    padding: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.header .j i span{
+    font-family: 'icomoon';
+}
+.mod-copyright{
+    width: 100vw;
+    height: 80px;
+    background-color: rgba(5, 23, 59, 0.4);
+    text-align: center;
+}
+.mod-copyright span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 80px;
+}

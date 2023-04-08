@@ -1,0 +1,159 @@
+body .header .j i a{
+  color: black;
+}
+.intro-bg{
+  width: 100vw;
+  height: 110vh;
+  background-color:skyblue;
+}
+.intro-center-bg{
+  width: 70vw;
+  height: 110vh;
+  margin: 0 auto;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  background-color: #6495ED;
+}
+.left-content{
+  width: 225px;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  /* position: relative; */
+}
+.intro-character{
+  width: 70px;
+  height: 70px;
+  /* position: absolute; */
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  /* left:80px; */
+  /* top: 20px; */
+  margin-left: 80px;
+}
+.intro-character:hover{
+  rotate: -360deg;
+  transition: all 0.3s;
+}
+.intro-character img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.per-inform{
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  margin-top: 15px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #6495ED;
+}
+.per-inform-p{
+  height: 25px;
+  width: 100%;
+  line-height: 25px;
+  text-align: center;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+.per-inform-p:hover{
+  background-color: #6495ED;
+  border-radius: 8px;
+}
+.per-inform-p p:hover{
+  color: rgba(0, 121, 251, 0.7);
+}
+.silent-img{
+  width: 100%;
+  height: 103px;
+}
+.silent-img img{
+  width: 100%;
+  height: 100%;
+}
+.right-content{
+  display: inline-block;
+  position: relative;
+  width: 666px;
+  height: 100%;
+}
+.content{
+  position: absolute;
+  width: 500px;
+  height: 29%;
+  margin-left: 85px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.content h3{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+#milu{
+  width: 100px;
+  height: 85px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  border-radius: 4px;
+}
+.c1{
+  top: 10px;
+}
+.c2{
+  top: 230px;
+}
+.c3{
+  top: 452px;
+}
+.j{
+  text-align: center;
+}
+.content h3{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.9);
+}
+.content p:hover{
+  color: aqua;
+}
+.shoutiqin-border{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.shoutiqin{
+  flex: 1;
+  overflow: hidden;
+  transition: 0.6s;
+  margin: 4px 5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border: 4px solid rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.shoutiqin>img{
+  width: 200%;
+  height: 85%;
+  object-fit: cover;
+}
+.shoutiqin>span{
+  font: 40 20px '优设标题黑';
+  text-align: center;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shoutiqin:hover{
+  flex-basis: 30%;
+}
+.box:hover>img{
+  width: 100%;
+  height: 100%;
+}
+.b{
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
